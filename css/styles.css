@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    /* Todo lo que se desborde que se oculte */
+    overflow: hidden;
+    /* Para centrarlo todo */
+    margin: auto;
+    padding: 60px 0;
+}
+
+/* Pseudo clase root */
+:root{
+    scroll-behavior: smooth;
+}
+
+header{
+    /* Que ocupe el 100% de lo que ocupe la pantalla */
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(157, 135, 207, 0.5) 0%, rgba(252, 195, 235, 0.5) 100%), url(../img/yo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.head{
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
