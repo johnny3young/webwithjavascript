@@ -57,7 +57,7 @@ header{
 }
 
 .menu-navegacion{
-    position: fixed;
+    position: fixed;    
     top: 0;
     right: 0;
     /* 30% del ancho de la página */
